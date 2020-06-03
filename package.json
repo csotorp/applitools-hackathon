@@ -1,0 +1,22 @@
+{
+  "name": "applitools-hackathon",
+  "version": "1.0.0",
+  "description": "Applitools UltraFastGrid | Cross Browser Hackathon",
+  "author": "Cecilia Soto <csoto@redpoints.com>",
+  "private": true,
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/csotorp/applitools-hackathon#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csotorp/applitools-hackathon.git"
+  },
+  "scripts": {
+    "test:mod:v1": "npx cypress cypress run -b chrome --headless -s 'test/modern-tests-v1/*'",
+    "test:trad:v1": "npx cypress cypress run -b chrome --headless -s 'test/traditional-tests-v1/*'",
+    "develop": "npx cypress open"
+  },
+  "devDependencies": {
+    "@applitools/eyes-cypress": "^3.11.1",
+    "cypress": "^4.7.0"
+  }
+}

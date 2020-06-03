@@ -1,0 +1,9 @@
+{
+  "testFiles": "**/*.spec.js",
+  "integrationFolder": "test",
+  "supportFile": "support/index.js",
+  "pluginsFile": "support/plugins.js",
+  "screenshotsFolder": "output/screenshots",
+  "viewportWidth": 800,
+  "viewportHeight": 600
+}
