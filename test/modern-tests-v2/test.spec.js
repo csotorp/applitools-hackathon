@@ -1,8 +1,8 @@
-describe('Applitools Hackathon', () => {
+describe('UFG Hackathon', () => {
 
     it('Task 1', function () {
 
-        cy.visit('demo.applitools.com/gridHackathonV1.html');
+        cy.visit('demo.applitools.com/gridHackathonV2.html');
 
         cy.eyesOpen({
             appName: 'Applifashion',

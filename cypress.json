@@ -1,9 +1,12 @@
 {
   "testFiles": "**/*.spec.js",
   "integrationFolder": "test",
+  "fixturesFolder":"test/fixtures",
   "supportFile": "support/index.js",
   "pluginsFile": "support/plugins.js",
   "screenshotsFolder": "output/screenshots",
+  "videosFolder": "output/videos",
+  "video": false,
   "viewportWidth": 800,
   "viewportHeight": 600
 }
