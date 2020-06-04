@@ -11,9 +11,9 @@
     "url": "git+https://github.com/csotorp/applitools-hackathon.git"
   },
   "scripts": {
-    "test:mod:v1": "npx cypress run -b chrome --headless -s 'test/modern-tests-v1/*'",
-    "test:mod:v2": "npx cypress run -b chrome --headless -s 'test/modern-tests-v2/*'",
-    "test:trad:v1": "npx cypress run -b chrome --headless -s 'test/traditional-tests-v1/*'",
+    "test:mod:v1": "npx cypress run -b chrome --headless -s 'test/modern-tests-v1/ufg-hackathon.spec.js'",
+    "test:mod:v2": "npx cypress run -b chrome --headless -s 'test/modern-tests-v2/ufg-hackathon.spec.js'",
+    "test:trad:v1": "npx cypress run -b chrome --headless -s 'test/traditional-tests-v1/ufg-hackathon.spec.js'",
     "develop": "npx cypress open"
   },
   "devDependencies": {

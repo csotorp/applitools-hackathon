@@ -7,10 +7,4 @@
 //
 // ***********************************************************
 
-import '@applitools/eyes-cypress/commands'
-
-Cypress.on('uncaught:exception', (err, runnable) => {
-    // returning false here prevents Cypress from
-    // failing the test
-    return false
-})
+import '@applitools/eyes-cypress/commands';
