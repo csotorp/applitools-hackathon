@@ -5,8 +5,9 @@
   "supportFile": "support/index.js",
   "pluginsFile": "support/plugins.js",
   "screenshotsFolder": "output/screenshots",
-  "videosFolder": "output/videos",
   "video": false,
-  "viewportWidth": 800,
-  "viewportHeight": 600
+  "firefoxGcInterval": {
+    "runMode": null,
+    "openMode": null
+  }
 }
