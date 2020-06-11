@@ -1,7 +1,7 @@
-const elements = {
+const els = {
 
 }
 
-export const homePage = {
+export const productDetailsPage = {
 
 }

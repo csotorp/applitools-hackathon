@@ -1,21 +1,14 @@
-const devices = [
-    { deviceName: 'Laptop', width: 1200, height: 700, current: false},
-    { deviceName: 'Tablet', width: 768, height: 700,  current: false},
-    { deviceName: 'iphone-x', screenOrientation: 'portrait', current: false}
-];
+const devices = Cypress.config('devices');
 
 export const browser = {
 
     name: () => Cypress.browser.name,
 
-    viewport: () => Cypress.browser.name,
-
-    device: () => Cypress.browser.name,
-
-    setViewport(device){
-        const d = devices.find(_device => _device.deviceName == device);
-        (d.deviceName == 'iphone-x') ? cy.viewport(d.deviceName, d.screenOrientation)
-                                     : cy.viewport(d.width, d.height);
+    setViewport(deviceType){
+        const device = devices.find(_device => _device.deviceType == deviceType);
+        (device.deviceType == 'laptop' || device.deviceType == 'tablet') 
+            ? cy.viewport(device.width, device.height)
+            : cy.viewport(device.deviceType, device.screenOrientation);
     },
 
     visit(version){

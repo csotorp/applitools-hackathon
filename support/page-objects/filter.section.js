@@ -1,7 +1,5 @@
 const els = {
-
     filters: () => cy.get('#filter_col'),
-    
 }
 
 export const filter = {

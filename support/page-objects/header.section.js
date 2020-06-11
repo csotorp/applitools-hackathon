@@ -1,5 +1,4 @@
 const els = {
-
     mainHeader: () => cy.get('.main_header'),
     logo: () => els.mainHeader().find('#logo'),
     menu: () => els.mainHeader().find('.main-menu ul'),

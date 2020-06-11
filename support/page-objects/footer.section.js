@@ -1,7 +1,7 @@
-const elements = {
+const els = {
     
 }
 
-export const footerSection = {
+export const footer = {
 
 }

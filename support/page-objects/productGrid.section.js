@@ -1,7 +1,7 @@
-const elements = {
+const els = {
 
 }
 
-export const productGridSection = {
+export const productGrid = {
 
 }

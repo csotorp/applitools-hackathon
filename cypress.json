@@ -2,11 +2,15 @@
   "baseUrl": "https://demo.applitools.com/",
   "testFiles": "**/*.spec.js",
   "integrationFolder": "test",
-  "fixturesFolder":"test/fixtures",
   "supportFile": "support/index.js",
   "pluginsFile": "support/plugins.js",
   "screenshotsFolder": "output/screenshots",
   "video": false,
+  "devices": [
+    { "deviceType": "laptop", "width": 1200, "height": 700 },
+    { "deviceType": "tablet", "width": 768, "height": 700 },
+    { "deviceType": "iphone-x", "screenOrientation": "portrait" } 
+  ],
   "firefoxGcInterval": {
     "runMode": null,
     "openMode": null
