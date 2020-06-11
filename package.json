@@ -19,7 +19,7 @@
     "develop": "npx cypress open"
   },
   "devDependencies": {
-    "@applitools/eyes-cypress": "^3.11.1",
+    "@applitools/eyes-cypress": "^3.12.0",
     "cypress": "^4.8.0"
   }
 }

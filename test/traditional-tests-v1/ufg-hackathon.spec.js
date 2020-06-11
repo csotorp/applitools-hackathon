@@ -1,21 +1,21 @@
 import { browser } from "../../support/wrappers/browser.wrapper";
+import { reporter } from "../../support/wrappers/reporter.wrapper";
 import { header } from "../../support/page-objects/header.section";
 import { filter } from "../../support/page-objects/filter.section";
 
-const baseUrl = 'demo.applitools.com/gridHackathonV1.html'
-
-describe('UFG Hackathon Desktop', () => { 
+describe('UFG Hackathon', function() { 
     
-    beforeEach(() => { 
-        browser.visit(baseUrl);
+    beforeEach(function() { 
+        browser.visit('V1');
     })
 
-    context('1200x700 Resolution', () => {
-        before(() => {
-            browser.setViewport( { width: 1200, height: 700 } );
+    context('1200x700 Resolution', function() {
+
+        before(function() {
+            browser.setViewport('Laptop');
         });
 
-        it('Cross-Device Elements Test', function () {
+        it('Cross-Device Elements Test', function() {
             header.shouldHaveLogo();
             header.shouldHaveMainMenu();
             header.shouldHaveSearchBar();
@@ -25,9 +25,9 @@ describe('UFG Hackathon Desktop', () => {
 
     });
 
-    context('768x600 Resolution', () => {
-        before(() => {
-            browser.setViewport( { width: 768, height: 600 } );
+    context('768x600 Resolution', function() {
+        before(function() {
+            browser.setViewport('Tablet');
         });
 
         it('Cross-Device Elements Test', function () {
@@ -37,28 +37,20 @@ describe('UFG Hackathon Desktop', () => {
             header.shouldHaveTools({ access: true, wish: false, cart: true, cartCount: 2 });
             filter.shouldBeVisible(false);
         });
-
+        
     });
+    
+    context('iPhone X Portrait', function() {
 
-});
-
-describe('UFG Hackathon Mobile', () => {
-
-    before(function() {
-        if (browser.name() === 'chrome') {
-            browser.visit(baseUrl);
-        } else {
-            this.skip();
-        }
-    });
-
-    context('iPhone X Portrait', () => {
-        before(() => {
-            browser.setViewport('iphone-x');
+        before(function() {
+            if (browser.name() === 'chrome') {
+                browser.setViewport('iphone-x');
+            } else {
+                this.skip();
+            }
         });
 
-        it('Cross-Device Elements Test ', function () {
-
+        it('Cross-Device Elements Test', function () {
             header.shouldHaveLogo();
             header.shouldHaveMainMenu(false);
             header.shouldHaveSearchBar({ mobile: true });

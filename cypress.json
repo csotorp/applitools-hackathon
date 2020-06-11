@@ -1,4 +1,5 @@
 {
+  "baseUrl": "https://demo.applitools.com/",
   "testFiles": "**/*.spec.js",
   "integrationFolder": "test",
   "fixturesFolder":"test/fixtures",
