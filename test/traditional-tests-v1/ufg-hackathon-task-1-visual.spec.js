@@ -1,8 +1,11 @@
 import { browser } from "../../support/wrappers/browser.wrapper";
-import { header } from "../../support/page-objects/header.section";
-import { filter } from "../../support/page-objects/filter.section";
+import { header } from "../../support/page-objects/header.region";
+import { filter } from "../../support/page-objects/filter.region";
+import { main, productItem } from "../../support/page-objects/main.region";
 
-describe('Task 1', function() {   
+const productList = require('../../support/fixtures/product-grid').productGrid;
+
+describe('Task 1 - Visual', function() {   
     beforeEach(function() { 
         browser.visit('V1');
     })
@@ -24,13 +27,20 @@ describe('Task 1', function() {
             header.shouldHaveSearchBar();
         });
 
-        it('should show all access, wishlist and cart tools', function() {
-            header.shouldHaveTools({ access: true, wish: true, cart: true, cartCount: 2 });
-            filter.shouldBeVisible();
+        it('should show all access, wishlist and cart options', function() {
+            header.shouldHaveOptions({ access: true, wish: true, cart: true, cartCount: 2 });
         });
 
         it('should show filters', function() {
             filter.shouldBeVisible();
+        });
+
+        it('should show banner', function() {
+            main.shouldHaveBanner();
+        });
+
+        it('should show sort and view switcher options', function() {
+            main.shouldHaveOptions({ sort: true, filters: false, viewSwithcer: true });
         });
 
     });
@@ -53,11 +63,19 @@ describe('Task 1', function() {
         });
 
         it('should show only access and cart tools', function () {
-            header.shouldHaveTools({ access: true, wish: false, cart: true, cartCount: 2 });
+            header.shouldHaveOptions({ access: true, wish: false, cart: true, cartCount: 2 });
         });
 
         it('should hide filters', function () {
             filter.shouldBeVisible(false);
+        });
+
+        it('should show banner', function() {
+            main.shouldHaveBanner();
+        });
+
+        it('should show sort and filter options', function() {
+            main.shouldHaveOptions({ sort: true, filters: true, filtersLbl: true, viewSwithcer: false });
         });
         
     });
@@ -84,11 +102,19 @@ describe('Task 1', function() {
         });
 
         it('should show only access and cart tools without cart item count', function () {
-            header.shouldHaveTools({ access: true, wish: false, cart: true, cartCount: false });
+            header.shouldHaveOptions({ access: true, wish: false, cart: true, cartCount: false });
         });
 
         it('should hide filters', function () {
             filter.shouldBeVisible(false);
+        });
+
+        it('should show banner', function() {
+            main.shouldHaveBanner();
+        });
+
+        it('should show sort and filter options without filter label', function() {
+            main.shouldHaveOptions({ sort: true, filters: true, filtersLbl: false, viewSwithcer: false });
         });
 
     });

@@ -4,6 +4,7 @@
   "integrationFolder": "test",
   "supportFile": "support/index.js",
   "pluginsFile": "support/plugins.js",
+  "fixturesFolder": "support/fixtures",
   "screenshotsFolder": "output/screenshots",
   "video": false,
   "devices": [

@@ -1,0 +1,13 @@
+{
+    "productGrid": [
+      { "idx": 0, "title": "Appli Air x Night", "price": 33, "promo": true, "promoDisc": 30, "promoLeft": 1, "promoPrice": 48 },
+      { "idx": 1, "title": "Appli Air Wildwood ACG", "price": 52, "promo": true, "promoDisc": 30, "promoLeft": 1, "promoPrice": 75 },
+      { "idx": 2, "title": "Appli ACG React Terra", "price": 110, "promo": false },
+      { "idx": 3, "title": "Appli Air Zoom Alpha", "price": 140, "promo": false },
+      { "idx": 4, "title": "Appli Air Alpha", "price": 170, "promo": false },
+      { "idx": 5, "title": "Appli Air 98", "price": 190, "promo": false },
+      { "idx": 6, "title": "Appli Air 720", "price": 200, "promo": false },
+      { "idx": 7, "title": "Appli Okwahn II", "price": 62, "promo": true, "promoDisc": 30, "promoLeft": 1, "promoPrice": 90 },
+      { "idx": 8, "title": "Appli 720", "price": 180, "promo": false }
+    ]
+  }
