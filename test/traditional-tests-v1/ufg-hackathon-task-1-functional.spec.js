@@ -9,7 +9,7 @@ describe('Task 1 - Functional', function() {
     })
 
     productList.forEach(function (product) {
-        it('should show ' + product.title + ' details', function () {
+        it('should show ' + product.title + ' product and price', function () {
             productItem.shouldHaveProductDetails(product.idx, product.title, product.price);
         });
     });

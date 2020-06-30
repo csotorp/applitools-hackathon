@@ -1,10 +1,10 @@
+import { browser } from "../../support/wrappers/browser.wrapper";
 import { eyesCheck } from './eyes.wrapper';
 
 describe('UFG Hackathon', () => {
 
     before(function() {
-        cy.viewpoert(800, 600);
-        cy.visit('demo.applitools.com/gridHackathonV1.html');
+        browser.visit('V1');
     });
 
     it('Task 1', function () {
