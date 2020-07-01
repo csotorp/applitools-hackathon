@@ -4,6 +4,8 @@ export const browser = {
 
     name: () => Cypress.browser.name,
 
+    devices: ()  => devices,
+
     setViewport(deviceType){
         const device = devices.find(_device => _device.deviceType == deviceType);
         (device.deviceType == 'laptop' || device.deviceType == 'tablet') 
