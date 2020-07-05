@@ -45,7 +45,6 @@ describe('Task 1', function() {
     it('should show footer collapsibles expanded', function() {
       footer.shouldShowCollapsibles({ expanded: true});
     });
-
   });
 
   context('tablet viewport', function() {
@@ -80,7 +79,6 @@ describe('Task 1', function() {
     it('should show footer collapsibles expanded', function() {
       footer.shouldShowCollapsibles({ expanded: true});
     });
-      
   });
   
   context('iphone-x viewport', function() {
@@ -117,7 +115,6 @@ describe('Task 1', function() {
     it('should show footer collapsed', function() {
       footer.shouldShowCollapsibles({ expanded: false});
     });
-
   });
 
   browser.allDevices().forEach(function (device) { 
@@ -158,9 +155,7 @@ describe('Task 1', function() {
         footer.shouldShowLocalization();
         footer.shouldShowAdditionalLinks();
       });    
-
     });
-
   });
 
   afterEach(function() {
@@ -170,7 +165,6 @@ describe('Task 1', function() {
       browserName : browser.name(),  
       device : browser.currentDevice(),
       status: this.currentTest.state 
-    })
+    });
   });
-
 });

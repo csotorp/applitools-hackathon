@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test:mod": "npx cypress run -b chrome --headless -s 'test/modern-tests*/*'",
-    "test:trad": "npm run test:trad:chrome ; npm run test:trad:firefox" ,
+    "test:trad": "npm run test:trad:chrome ; npm run test:trad:firefox ; npm run test:trad:edge",
     "test:trad:chrome": "npx cypress run -b chrome --headless -s 'test/traditional-tests*/*'",
     "test:trad:firefox": "npx cypress run -b firefox --headless -s 'test/traditional-tests*/*'",
     "test:trad:edge": "npx cypress run -b edge --headless -s 'test/traditional-tests*/*'"
