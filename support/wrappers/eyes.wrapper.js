@@ -1,3 +1,10 @@
+/**
+ * Helper fn to take screenshots with eyes API
+ * @param params.testName 
+ * @param params.testStep
+ * @param params.target
+ * @param params.selector
+ */
 export function eyesCheck(params) {
 
   cy.eyesOpen({

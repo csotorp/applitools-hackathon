@@ -1,5 +1,5 @@
 import { browser } from "../../support/wrappers/browser.wrapper";
-import { eyesCheck } from './eyes.wrapper';
+import { eyesCheck } from '../../support/wrappers/eyes.wrapper';
 
 describe('UFG Hackathon', () => {
 
