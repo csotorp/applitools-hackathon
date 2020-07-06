@@ -145,7 +145,7 @@ describe('Task 1', function() {
             productItem.shouldShowPromoDetails(product);
           });
         } else {
-          it('should not show promo for' + product.title, function () {
+          it('should not show promo for ' + product.title, function () {
             productItem.shouldShowPromoDetails(product);
           });
         }

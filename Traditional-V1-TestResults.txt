@@ -26,19 +26,19 @@ Task: 1, Test Name: should show Appli Air x Night promo details, Browser: chrome
 Task: 1, Test Name: should show Appli Air Wildwood ACG product and price, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should show Appli Air Wildwood ACG promo details, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should show Appli ACG React Terra product and price, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
-Task: 1, Test Name: should not show promo forAppli ACG React Terra, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should not show promo for Appli ACG React Terra, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should show Appli Air Zoom Alpha product and price, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
-Task: 1, Test Name: should not show promo forAppli Air Zoom Alpha, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should not show promo for Appli Air Zoom Alpha, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should show Appli Air Alpha product and price, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
-Task: 1, Test Name: should not show promo forAppli Air Alpha, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should not show promo for Appli Air Alpha, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should show Appli Air 98 product and price, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
-Task: 1, Test Name: should not show promo forAppli Air 98, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should not show promo for Appli Air 98, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should show Appli Air 720 product and price, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
-Task: 1, Test Name: should not show promo forAppli Air 720, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should not show promo for Appli Air 720, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should show Appli Okwahn II product and price, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should show Appli Okwahn II promo details, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should show Appli 720 product and price, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
-Task: 1, Test Name: should not show promo forAppli 720, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should not show promo for Appli 720, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should always show footer bottom row, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should always show logo, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
 Task: 1, Test Name: should always show banner, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
@@ -47,19 +47,19 @@ Task: 1, Test Name: should show Appli Air x Night promo details, Browser: chrome
 Task: 1, Test Name: should show Appli Air Wildwood ACG product and price, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
 Task: 1, Test Name: should show Appli Air Wildwood ACG promo details, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
 Task: 1, Test Name: should show Appli ACG React Terra product and price, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
-Task: 1, Test Name: should not show promo forAppli ACG React Terra, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should not show promo for Appli ACG React Terra, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
 Task: 1, Test Name: should show Appli Air Zoom Alpha product and price, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
-Task: 1, Test Name: should not show promo forAppli Air Zoom Alpha, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should not show promo for Appli Air Zoom Alpha, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
 Task: 1, Test Name: should show Appli Air Alpha product and price, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
-Task: 1, Test Name: should not show promo forAppli Air Alpha, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should not show promo for Appli Air Alpha, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
 Task: 1, Test Name: should show Appli Air 98 product and price, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
-Task: 1, Test Name: should not show promo forAppli Air 98, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should not show promo for Appli Air 98, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
 Task: 1, Test Name: should show Appli Air 720 product and price, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
-Task: 1, Test Name: should not show promo forAppli Air 720, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should not show promo for Appli Air 720, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
 Task: 1, Test Name: should show Appli Okwahn II product and price, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
 Task: 1, Test Name: should show Appli Okwahn II promo details, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
 Task: 1, Test Name: should show Appli 720 product and price, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
-Task: 1, Test Name: should not show promo forAppli 720, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should not show promo for Appli 720, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
 Task: 1, Test Name: should always show footer bottom row, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
 Task: 1, Test Name: should always show logo, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
 Task: 1, Test Name: should always show banner, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
@@ -68,19 +68,19 @@ Task: 1, Test Name: should show Appli Air x Night promo details, Browser: chrome
 Task: 1, Test Name: should show Appli Air Wildwood ACG product and price, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
 Task: 1, Test Name: should show Appli Air Wildwood ACG promo details, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
 Task: 1, Test Name: should show Appli ACG React Terra product and price, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
-Task: 1, Test Name: should not show promo forAppli ACG React Terra, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
+Task: 1, Test Name: should not show promo for Appli ACG React Terra, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
 Task: 1, Test Name: should show Appli Air Zoom Alpha product and price, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
-Task: 1, Test Name: should not show promo forAppli Air Zoom Alpha, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
+Task: 1, Test Name: should not show promo for Appli Air Zoom Alpha, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
 Task: 1, Test Name: should show Appli Air Alpha product and price, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
-Task: 1, Test Name: should not show promo forAppli Air Alpha, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
+Task: 1, Test Name: should not show promo for Appli Air Alpha, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
 Task: 1, Test Name: should show Appli Air 98 product and price, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
-Task: 1, Test Name: should not show promo forAppli Air 98, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
+Task: 1, Test Name: should not show promo for Appli Air 98, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
 Task: 1, Test Name: should show Appli Air 720 product and price, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
-Task: 1, Test Name: should not show promo forAppli Air 720, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
+Task: 1, Test Name: should not show promo for Appli Air 720, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
 Task: 1, Test Name: should show Appli Okwahn II product and price, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
 Task: 1, Test Name: should show Appli Okwahn II promo details, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
 Task: 1, Test Name: should show Appli 720 product and price, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
-Task: 1, Test Name: should not show promo forAppli 720, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
+Task: 1, Test Name: should not show promo for Appli 720, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
 Task: 1, Test Name: should always show footer bottom row, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
 Task: 1, Test Name: should show main menu, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should show search bar, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
@@ -103,19 +103,19 @@ Task: 1, Test Name: should show Appli Air x Night promo details, Browser: firefo
 Task: 1, Test Name: should show Appli Air Wildwood ACG product and price, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should show Appli Air Wildwood ACG promo details, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should show Appli ACG React Terra product and price, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
-Task: 1, Test Name: should not show promo forAppli ACG React Terra, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should not show promo for Appli ACG React Terra, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should show Appli Air Zoom Alpha product and price, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
-Task: 1, Test Name: should not show promo forAppli Air Zoom Alpha, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should not show promo for Appli Air Zoom Alpha, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should show Appli Air Alpha product and price, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
-Task: 1, Test Name: should not show promo forAppli Air Alpha, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should not show promo for Appli Air Alpha, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should show Appli Air 98 product and price, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
-Task: 1, Test Name: should not show promo forAppli Air 98, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should not show promo for Appli Air 98, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should show Appli Air 720 product and price, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
-Task: 1, Test Name: should not show promo forAppli Air 720, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should not show promo for Appli Air 720, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should show Appli Okwahn II product and price, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should show Appli Okwahn II promo details, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should show Appli 720 product and price, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
-Task: 1, Test Name: should not show promo forAppli 720, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should not show promo for Appli 720, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should always show footer bottom row, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should always show logo, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
 Task: 1, Test Name: should always show banner, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
@@ -124,17 +124,73 @@ Task: 1, Test Name: should show Appli Air x Night promo details, Browser: firefo
 Task: 1, Test Name: should show Appli Air Wildwood ACG product and price, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
 Task: 1, Test Name: should show Appli Air Wildwood ACG promo details, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
 Task: 1, Test Name: should show Appli ACG React Terra product and price, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
-Task: 1, Test Name: should not show promo forAppli ACG React Terra, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should not show promo for Appli ACG React Terra, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
 Task: 1, Test Name: should show Appli Air Zoom Alpha product and price, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
-Task: 1, Test Name: should not show promo forAppli Air Zoom Alpha, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should not show promo for Appli Air Zoom Alpha, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
 Task: 1, Test Name: should show Appli Air Alpha product and price, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
-Task: 1, Test Name: should not show promo forAppli Air Alpha, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should not show promo for Appli Air Alpha, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
 Task: 1, Test Name: should show Appli Air 98 product and price, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
-Task: 1, Test Name: should not show promo forAppli Air 98, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should not show promo for Appli Air 98, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
 Task: 1, Test Name: should show Appli Air 720 product and price, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
-Task: 1, Test Name: should not show promo forAppli Air 720, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should not show promo for Appli Air 720, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
 Task: 1, Test Name: should show Appli Okwahn II product and price, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
 Task: 1, Test Name: should show Appli Okwahn II promo details, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
 Task: 1, Test Name: should show Appli 720 product and price, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
-Task: 1, Test Name: should not show promo forAppli 720, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should not show promo for Appli 720, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
 Task: 1, Test Name: should always show footer bottom row, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should show main menu, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should show search bar, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should show all access, wishlist and cart options, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should show filters, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should show sort and view switcher options, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should hide product options, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should show footer collapsibles expanded, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should hide main menu, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should show search bar, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should show only access and cart tools, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should hide filters, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should show sort and filter options, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should show product options, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should show footer collapsibles expanded, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should always show logo, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should always show banner, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should show Appli Air x Night product and price, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should show Appli Air x Night promo details, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should show Appli Air Wildwood ACG product and price, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should show Appli Air Wildwood ACG promo details, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should show Appli ACG React Terra product and price, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should not show promo for Appli ACG React Terra, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should show Appli Air Zoom Alpha product and price, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should not show promo for Appli Air Zoom Alpha, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should show Appli Air Alpha product and price, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should not show promo for Appli Air Alpha, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should show Appli Air 98 product and price, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should not show promo for Appli Air 98, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should show Appli Air 720 product and price, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should not show promo for Appli Air 720, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should show Appli Okwahn II product and price, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should show Appli Okwahn II promo details, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should show Appli 720 product and price, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should not show promo for Appli 720, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should always show footer bottom row, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should always show logo, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should always show banner, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should show Appli Air x Night product and price, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should show Appli Air x Night promo details, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should show Appli Air Wildwood ACG product and price, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should show Appli Air Wildwood ACG promo details, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should show Appli ACG React Terra product and price, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should not show promo for Appli ACG React Terra, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should show Appli Air Zoom Alpha product and price, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should not show promo for Appli Air Zoom Alpha, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should show Appli Air Alpha product and price, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should not show promo for Appli Air Alpha, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should show Appli Air 98 product and price, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should not show promo for Appli Air 98, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should show Appli Air 720 product and price, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should not show promo for Appli Air 720, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should show Appli Okwahn II product and price, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should show Appli Okwahn II promo details, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should show Appli 720 product and price, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should not show promo for Appli 720, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should always show footer bottom row, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed

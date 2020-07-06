@@ -6,6 +6,10 @@ describe('UFG Hackathon', () => {
     browser.visit('V1');
   });
 
+  beforeEach(function() {
+    cy.viewport(800, 600);
+  });
+
   it('Task 1', function () {
     eyesCheck({ 
       testName: this.test.title,
