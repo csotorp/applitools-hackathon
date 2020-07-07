@@ -10,7 +10,7 @@ const productList = require('../../support/fixtures/product-grid').productGrid;
 
 describe('Task 1', function() {   
   before(function() { 
-    browser.visit('V1');
+    browser.visit('V2');
   })
 
   context('laptop viewport', function() {

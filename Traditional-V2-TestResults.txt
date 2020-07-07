@@ -2,23 +2,23 @@ Task: 1, Test Name: should show main menu, Browser: chrome, Viewport: 1200 x 700
 Task: 1, Test Name: should show search bar, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should show all access, wishlist and cart options, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should show filters, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
-Task: 1, Test Name: should show sort and view switcher options, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should show sort and view switcher options, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: failed
 Task: 1, Test Name: should hide product options, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should show footer collapsibles expanded, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should hide main menu, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
 Task: 1, Test Name: should show search bar, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
-Task: 1, Test Name: should show only access and cart tools, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should show only access and cart tools, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: failed
 Task: 1, Test Name: should hide filters, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
-Task: 1, Test Name: should show sort and filter options, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
-Task: 1, Test Name: should show product options, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should show sort and filter options, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: failed
+Task: 1, Test Name: should show product options, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: failed
 Task: 1, Test Name: should show footer collapsibles expanded, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: passed
 Task: 1, Test Name: should hide main menu, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
-Task: 1, Test Name: should show mobile search bar, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
-Task: 1, Test Name: should show only access and cart tools without cart item count, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
+Task: 1, Test Name: should show mobile search bar, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: failed
+Task: 1, Test Name: should show only access and cart tools without cart item count, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: failed
 Task: 1, Test Name: should hide filters, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
-Task: 1, Test Name: should show sort and filter options without filter label, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
-Task: 1, Test Name: should show product options, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
-Task: 1, Test Name: should show footer collapsed, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: passed
+Task: 1, Test Name: should show sort and filter options without filter label, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: failed
+Task: 1, Test Name: should show product options, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: failed
+Task: 1, Test Name: should show footer collapsed, Browser: chrome, Viewport: 375 x 812, Device: iphone-x, Status: failed
 Task: 1, Test Name: should always show logo, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should always show banner, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should show Appli Air x Night product and price, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: passed
@@ -86,15 +86,15 @@ Task: 1, Test Name: should show main menu, Browser: firefox, Viewport: 1200 x 70
 Task: 1, Test Name: should show search bar, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should show all access, wishlist and cart options, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should show filters, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
-Task: 1, Test Name: should show sort and view switcher options, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should show sort and view switcher options, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: failed
 Task: 1, Test Name: should hide product options, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should show footer collapsibles expanded, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should hide main menu, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
 Task: 1, Test Name: should show search bar, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
-Task: 1, Test Name: should show only access and cart tools, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should show only access and cart tools, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: failed
 Task: 1, Test Name: should hide filters, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
-Task: 1, Test Name: should show sort and filter options, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
-Task: 1, Test Name: should show product options, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should show sort and filter options, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: failed
+Task: 1, Test Name: should show product options, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: failed
 Task: 1, Test Name: should show footer collapsibles expanded, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: passed
 Task: 1, Test Name: should always show logo, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should always show banner, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: passed
@@ -142,15 +142,15 @@ Task: 1, Test Name: should show main menu, Browser: edge, Viewport: 1200 x 700, 
 Task: 1, Test Name: should show search bar, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should show all access, wishlist and cart options, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should show filters, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
-Task: 1, Test Name: should show sort and view switcher options, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
+Task: 1, Test Name: should show sort and view switcher options, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: failed
 Task: 1, Test Name: should hide product options, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should show footer collapsibles expanded, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should hide main menu, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
 Task: 1, Test Name: should show search bar, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
-Task: 1, Test Name: should show only access and cart tools, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should show only access and cart tools, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: failed
 Task: 1, Test Name: should hide filters, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
-Task: 1, Test Name: should show sort and filter options, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
-Task: 1, Test Name: should show product options, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
+Task: 1, Test Name: should show sort and filter options, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: failed
+Task: 1, Test Name: should show product options, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: failed
 Task: 1, Test Name: should show footer collapsibles expanded, Browser: edge, Viewport: 768 x 700, Device: tablet, Status: passed
 Task: 1, Test Name: should always show logo, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed
 Task: 1, Test Name: should always show banner, Browser: edge, Viewport: 1200 x 700, Device: laptop, Status: passed

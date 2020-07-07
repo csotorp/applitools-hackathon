@@ -3,7 +3,7 @@ import { eyesCheck } from '../../support/wrappers/eyes.wrapper';
 
 describe('UFG Hackathon', () => {
   before(function() {
-    browser.visit('V1');
+    browser.visit('V2');
   });
 
   beforeEach(function() {
