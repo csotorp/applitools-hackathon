@@ -32,6 +32,15 @@ To run Traditional Approach:
 npm run test:trad
 ```
 
+I created [develop-v2 branch](https://github.com/csotorp/applitools-hackathon/tree/develop-v2) to work specifically with V2 app, leaving master branch for V1 only.
+To execute modern and traditional tests agaisnt V2, use the very same npm commands after swithching into it like so:
+``` 
+git checkout develop-v2
+git pull
+```
+
+> Check [Pull reuqest #1](https://github.com/csotorp/applitools-hackathon/pull/1) to see diff between V1 and V2 test code.
+
 ### Remarks for Traditional Approach
 
 Edge on Ubuntu/Linux: Sadly, edgechromium stable is not yet available for Ubuntu (needed for Cypress run). 
