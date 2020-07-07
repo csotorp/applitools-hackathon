@@ -2,7 +2,6 @@ const devices = Cypress.config('devices');
 var _currentDevice;
 
 export const browser = {
-
   name: () => Cypress.browser.name,
 
   allDevices: ()  => devices,
@@ -18,9 +17,8 @@ export const browser = {
   },
 
   visit(version){
-    version == 'V1' ? cy.visit('/gridHackathonV1.html') :
-    version == 'V2' ? cy.visit('/gridHackathonV2.html') :
-    cy.log('Version not recognized');
+    if (version == 'V1') cy.visit('/gridHackathonV1.html') 
+    else if (version == 'V2') cy.visit('/gridHackathonV2.html') 
+    else throw new Error('Version not recognized');
   }
-
 }

@@ -159,7 +159,8 @@ describe('Task 1', function() {
   });
 
   afterEach(function() {
-    reporter({ 
+    reporter({
+      filename: 'Traditional-V1-TestResults.txt',
       task: 1,
       testName : this.currentTest.title, 
       browserName : browser.name(),  
