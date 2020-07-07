@@ -10,7 +10,7 @@ const productList = require('../../support/fixtures/product-grid').productGrid;
 
 describe('Task 1', function() {   
   before(function() { 
-    browser.visit('V1');
+    browser.visit('V2');
   })
 
   context('laptop viewport', function() {
@@ -26,7 +26,7 @@ describe('Task 1', function() {
       header.shouldShowSearchBar();
     });
 
-    it('should show all access, wishlist and cart options', function() {
+    it('should show access, wishlist and cart options with cart item count', function() {
       header.shouldShowOptions({ access: true, wish: true, cart: true, cartCount: 2 });
     });
 
@@ -34,11 +34,11 @@ describe('Task 1', function() {
       filter.shouldBeVisible();
     });
 
-    it('should show sort and view switcher options', function() {
+    it('should show sort and view switcher options && should hide filters option', function() {
       main.shouldShowOptions({ sort: true, filters: false, viewSwithcer: true });
     });
 
-    it('should hide product options', function() {
+    it('should hide product options (fav, compare and cart options)', function() {
       productItem.shouldShowProductOptions(false);
     });
 
@@ -60,7 +60,7 @@ describe('Task 1', function() {
       header.shouldShowSearchBar();
     });
 
-    it('should show only access and cart tools', function () {
+    it('should show access and cart options with cart item count && should hide wishlist option', function () {
       header.shouldShowOptions({ access: true, wish: false, cart: true, cartCount: 2 });
     });
 
@@ -68,11 +68,11 @@ describe('Task 1', function() {
       filter.shouldBeVisible(false);
     });
 
-    it('should show sort and filter options', function() {
+    it('should show sort and filters (with label) options && should hide view switcher option', function() {
       main.shouldShowOptions({ sort: true, filters: true, filtersLbl: true, viewSwithcer: false });
     });
 
-    it('should show product options', function() {
+    it('should show product options (fav, compare and cart options)', function() {
       productItem.shouldShowProductOptions();
     });
 
@@ -92,11 +92,11 @@ describe('Task 1', function() {
       header.shouldShowMainMenu(false);
     });
 
-    it('should show mobile search bar', function () {
+    it('should show mobile search bar and hide desktop search bar', function () {
       header.shouldShowSearchBar({ mobile: true });
     });
 
-    it('should show only access and cart tools without cart item count', function () {
+    it('should show access and cart options without cart item count && should hide wishlist option', function () {
       header.shouldShowOptions({ access: true, wish: false, cart: true, cartCount: false });
     });
 
@@ -104,11 +104,11 @@ describe('Task 1', function() {
       filter.shouldBeVisible(false);
     });
 
-    it('should show sort and filter options without filter label', function() {
+    it('should show sort and filter options without filter label && should hide view switcher option', function() {
       main.shouldShowOptions({ sort: true, filters: true, filtersLbl: false, viewSwithcer: false });
     });
     
-    it('should show product options', function() {
+    it('should show product options (fav, compare and cart options)', function() {
       productItem.shouldShowProductOptions();
     });
 
@@ -136,12 +136,12 @@ describe('Task 1', function() {
       productList.forEach(function (product) {
         product.idx = productList.indexOf(product);
 
-        it('should show ' + product.title + ' product and price', function () {
+        it('should show ' + product.title + ' product details (title and price)', function () {
           productItem.shouldShowProductDetails(product);
         });
 
         if (product.promo) {
-          it('should show ' + product.title + ' promo details', function () {
+          it('should show ' + product.title + ' promo details (off, countdown and old price)', function () {
             productItem.shouldShowPromoDetails(product);
           });
         } else {
@@ -151,7 +151,7 @@ describe('Task 1', function() {
         }
       });
 
-      it('should always show footer bottom row', function() {
+      it('should always show footer bottom row (localization and additional links)', function() {
         footer.shouldShowLocalization();
         footer.shouldShowAdditionalLinks();
       });    
@@ -160,7 +160,7 @@ describe('Task 1', function() {
 
   afterEach(function() {
     reporter({
-      filename: 'Traditional-V1-TestResults.txt',
+      filename: 'Traditional-V2-TestResults.txt',
       task: 1,
       testName : this.currentTest.title, 
       browserName : browser.name(),  
